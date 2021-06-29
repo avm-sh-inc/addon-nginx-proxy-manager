@@ -12,7 +12,7 @@ declare backup
 # Require MySQL service to be available
 if ! bashio::services.available "mysql"; then
     bashio::log.error \
-        "This add-on now requires the MariaDB core add-on 2.0 or newer!"
+        "This add-on now requires the MariaDB core add-on 2.0 or newer! dsfdasfdaf"
     bashio::exit.nok \
         "Make sure the MariaDB add-on is installed and running"
 fi
