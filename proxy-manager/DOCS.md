@@ -138,12 +138,12 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[contributors]: https://github.com/hassio-addons/addon-nginx-proxy-manager/graphs/contributors
+[contributors]: https://github.com/avm-sh-inc/addon-nginx-proxy-manager/graphs/contributors
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord]: https://discord.me/hassioaddons
 [forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-nginx-proxy-manager/111830?u=frenck
 [frenck]: https://github.com/frenck
-[issue]: https://github.com/hassio-addons/addon-nginx-proxy-manager/issues
+[issue]: https://github.com/avm-sh-inc/addon-nginx-proxy-manager/issues
 [reddit]: https://reddit.com/r/homeassistant
-[releases]: https://github.com/hassio-addons/addon-nginx-proxy-manager/releases
+[releases]: https://github.com/avm-sh-inc/addon-nginx-proxy-manager/releases
 [semver]: http://semver.org/spec/v2.0.0.htm

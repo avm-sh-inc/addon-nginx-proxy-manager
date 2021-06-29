@@ -134,11 +134,3 @@ query=".database.engine = \"mysql\"
 # shellcheck disable=SC2094
 cat <<< "$(jq "${query}" /data/manager/production.json)" \
     > /data/manager/production.json
-
-# shellcheck disable=SC1073
-query=".database.engine = \"knex-native\"
-    | .database.knex.client = \"sqlite3\"
-    | .database.knex.connection.filename = \"/data/database.sqlite\"
-    | .database.knex.useNullAsDefault = \"true\"
-
-echo ${query}
