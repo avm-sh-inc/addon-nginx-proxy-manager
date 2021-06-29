@@ -10,6 +10,7 @@
   "services": ["mysql:need"],
   "hassio_api": true,
   "ports": {
+    "22/tcp": 22,
     "80/tcp": 80,
     "81/tcp": 81,
     "443/tcp": 443
