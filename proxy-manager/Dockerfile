@@ -7,7 +7,7 @@ SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 # Copy Python requirements file
 COPY requirements.txt /tmp/
-RUN cat /etc/cont-init.d/mysql.sh
+
 # Setup base
 # hadolint ignore=DL3003
 RUN \
@@ -115,7 +115,7 @@ RUN \
 
 # Copy root filesystem
 COPY rootfs /
-
+RUN rm /etc/cont-init.d/mysql.sh
 # Build arguments
 ARG BUILD_ARCH
 ARG BUILD_DATE
